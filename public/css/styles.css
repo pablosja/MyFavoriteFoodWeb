@@ -1,12 +1,9 @@
-body {
-  background-color: rgb(100, 240, 240);
+h1 {
+  background-color: rgb(0, 255, 255);
 }
 
-head {
-  height: 30px;
-  width: auto;
-  background-color: green;
-  color: blue;
+form {
+  background-color: gold;
 }
 
 /*# sourceMappingURL=styles.css.map */
