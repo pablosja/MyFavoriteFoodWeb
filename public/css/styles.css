@@ -2,4 +2,11 @@ body {
   background-color: rgb(100, 240, 240);
 }
 
+head {
+  height: 30px;
+  width: auto;
+  background-color: green;
+  color: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */
