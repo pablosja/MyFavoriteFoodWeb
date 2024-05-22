@@ -5,88 +5,123 @@
     <link rel="stylesheet" href="./public/css/styles.css"/>
     <title>Document</title>
 <body>
+    <header>
+        <h1>My Favorite Food Web</h1>
+    </header>
     <main>
-        <head>
-            <h1>My Favorite Food Web</h1>
-        </head>
         <div>
-            <img src="">
+            <img class="burger" src="./public/assets/imgs/burgerbanner.jpg">
         </div>
-        <div>
-            <h2>Ingredients</h2>
-            <form>
-                <div class="checkbox-group">
-                    <label>
-                        <input type="checkbox" name="option1" value="1">
-                        <span>Pan de brioche</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="option2" value="2">
-                        <span>Carne para hamburguesa</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="option3" value="3">
-                        <span>Mantequilla</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="option4" value="4">
-                        <span>Vino tinto o zumo de uva</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="option5" value="5">
-                        <span>Queso cheddar</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="option6" value="6">
-                        <span>Lechuga</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="option7" value="7">
-                        <span>Cebolla</span>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="option8" value="8">
-                        <span>Mayonesa</span>
-                    </label>
+        <div class="ingr-time">
+            <div class="ingr-check">
+                <h2>Ingredients</h2>
+                <form>
+                    <div class="checkbox-group">
+                        <div class="cbox1">
+                            <label>
+                                <input type="checkbox" name="option1" value="1">
+                                <span>Pan de brioche</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="option2" value="2">
+                                <span>Carne para hamburguesa</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="option3" value="3">
+                                <span>Mantequilla</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="option4" value="4">
+                                <span>Vino tinto o zumo de uva</span>
+                            </label>
+                        </div>
+                        <div class="cbox2">
+                            <label>
+                                <input type="checkbox" name="option5" value="5">
+                                <span>Queso cheddar</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="option6" value="6">
+                                <span>Lechuga</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="option7" value="7">
+                                <span>Cebolla</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="option8" value="8">
+                                <span>Mayonesa</span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="time-container">
+                <h2>Time</h2>
+                <div class="clocks-container">
+                    <div class="estimation">
+                        <p><img class="clock" src="./public/assets/logos/CLOCKclock.svg">25 minutes</p>
+                    </div>
+                    <div class="countdown">
+                        <p id="timer"><img class="hourglass" src="./public/assets/logos/HOURGLASShourglass.svg"></p>
+                    </div>
                 </div>
-            </form>
-        </div>
-        <div>
-            <h2>Time</h2>
-            <div>
-                ---timers here---
             </div>
         </div>
-        <div>
+        <section class="prep-section">
             <h2>Preparation</h2>
-            <div>
-                <div>
+            <div class="prep-steps">
+                <div class="steps-1-2">
                     <div>
-                        <div>number 1</div>
-                        <div><p>text 1</p></div>
+                        <div>
+                            <p>1</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim mauris, malesuada vitae vulputate at, bibendum sit amet diam. Duis nunc sem, molestie sit amet felis nec, sodales viverra velit. Sed elementum lorem quis tortor aliquam, sit amet lacinia odio mattis. Fusce congue turpis vitae posuere tristique. Phasellus pulvinar auctor est, et ultrices ipsum sodales et. Vivamus convallis suscipit nibh, id ultricies erat mollis lobortis. Suspendisse potenti.
+</p>
+                        </div>
                     </div>
                     <div>
-                        <div>number 3</div>
-                        <div><p>text 3</p></div>
+                        <div>
+                            <p>2</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim mauris, malesuada vitae vulputate at, bibendum sit amet diam. Duis nunc sem, molestie sit amet felis nec, sodales viverra velit. Sed elementum lorem quis tortor aliquam, sit amet lacinia odio mattis. Fusce congue turpis vitae posuere tristique. Phasellus pulvinar auctor est, et ultrices ipsum sodales et. Vivamus convallis suscipit nibh, id ultricies erat mollis lobortis. Suspendisse potenti.
+</p>
+                        </div>
                     </div>
                 </div>
-                <div>
+                <div class="steps-3-4">
                     <div>
-                        <div>number 2</div>
-                        <div><p>text 2</p></div>
+                        <div>
+                            <p>3</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim mauris, malesuada vitae vulputate at, bibendum sit amet diam. Duis nunc sem, molestie sit amet felis nec, sodales viverra velit. Sed elementum lorem quis tortor aliquam, sit amet lacinia odio mattis. Fusce congue turpis vitae posuere tristique. Phasellus pulvinar auctor est, et ultrices ipsum sodales et. Vivamus convallis suscipit nibh, id ultricies erat mollis lobortis. Suspendisse potenti.
+</p>
+                        </div>
                     </div>
                     <div>
-                        <div>number 4</div>
-                        <div><p>text 4</p></div>
+                        <div>
+                            <p>4</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim mauris, malesuada vitae vulputate at, bibendum sit amet diam. Duis nunc sem, molestie sit amet felis nec, sodales viverra velit. Sed elementum lorem quis tortor aliquam, sit amet lacinia odio mattis. Fusce congue turpis vitae posuere tristique. Phasellus pulvinar auctor est, et ultrices ipsum sodales et. Vivamus convallis suscipit nibh, id ultricies erat mollis lobortis. Suspendisse potenti.
+</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div>
-            <footer>
-                <p>Created by Pablo San José</p><img src="">
-            </footer>
         </div>
     </main>
+    <footer>
+        <p>Created by Pablo San José</p>
+        <img src="./public/assets/logos/facebookfacebook.svg">
+        <img src="./public/assets/logos/instagraminstagram.svg">
+        <img src="./public/assets/logos/linkedinlinkedin.svg">
+        <img src="./public/assets/logos/x-twitter 1twitter.svg">    
+    </footer>
 </body>
 </html>

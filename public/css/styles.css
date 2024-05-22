@@ -1,9 +1,33 @@
-h1 {
-  background-color: rgb(0, 255, 255);
+body {
+  margin: 0;
+  padding: 0;
 }
-
-form {
+body header {
+  background-color: rgb(0, 255, 255);
+  display: flex;
+}
+body main {
+  margin: 0;
+  padding: 0;
+}
+body main .burger {
+  width: 100%;
+  max-height: 25%;
+  object-fit: cover;
+}
+body main .ingr-time {
+  display: inline-flex;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: 1fr;
+}
+body main .ingr-time .ingr-check {
   background-color: gold;
+  grid-column: 2/14;
+}
+body main .ingr-time .time-container {
+  background-color: pink;
+  grid-column: 14/20;
 }
 
 /*# sourceMappingURL=styles.css.map */
